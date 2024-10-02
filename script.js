@@ -110,7 +110,6 @@ function deleteDonation(index) {
 // Initial update when the page loads
 updateDonationList();
 
-
 // JavaScript for validating the form
 function validateForm(event) {
    event.preventDefault();
@@ -120,7 +119,7 @@ function validateForm(event) {
    const errorMessage = document.getElementById('error-message');
 
    // Simple validation rules
-   if (userId === 'admin' && password === 'password123') {
+   if (userId === 'Admin' && password === 'Blood@123') {
     window.location.href = 'list.html';
    } else {
        errorMessage.style.color = 'red';
